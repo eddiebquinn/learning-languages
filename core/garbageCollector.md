@@ -1,0 +1,4 @@
+# Garbage Collector
+In low level languages like `C` or `C++` when creating an object you need to allocate memory to it, and when you are done you need to de-allocate the memory. This is not the case with all languages however, one example being `JavaScript`. In JS the memory is automatically allocated to the object, and then when you are done you don't have to worry.
+
+The reason why you can do this is because `JavasScript` has what is called a Garbage Collector. The job of a Garbage Collector is to find all the variables that are no longer used, and de-allocate the memory. In some languages this collection can be tuned, and even turned off, but in 90% of cases you don't have to worry about it.
