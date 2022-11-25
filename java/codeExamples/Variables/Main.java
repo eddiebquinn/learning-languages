@@ -1,5 +1,6 @@
 package codeExamples.Variables;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -7,11 +8,13 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int firstNumber = 2;
-        int secondNumber = 5;
+        Random randomGenerator = new Random();
 
-        int subtraction = 7;
-        int answer;
+        int firstNumber = randomGenerator.nextInt(8) + 2;
+        int secondNumber = randomGenerator.nextInt(8) + 2;
+        int subtraction = randomGenerator.nextInt(8) + 2;
+        int answer = firstNumber * secondNumber - subtraction;
+
         String prompt = ". Press ENTER when ready";
 
         System.out.println("Think of a number between 1-10" + prompt);
@@ -25,7 +28,6 @@ public class Main {
         System.out.println("Now subtract " + subtraction + prompt);
         scanner.nextLine();
 
-        answer = firstNumber * secondNumber - subtraction;
         System.out.println("The answer is " + answer);
         scanner.close();
     }
