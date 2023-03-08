@@ -4,6 +4,6 @@ This is a general-purpose repo that I made to store notes and sample codes of di
 I would also like to note overall that these notes are not made for other people to learn from. Some coding concepts I already know and understand, and therefore do not feel the need to make additional notes on. These may *help* people to learn, but please do not complain if they seem nonsensical.
 
 ## Core concepts
-There are some core concepts in coding which apply to all languages, i.e. Garbage Collection. Because these are fundamental topics and aren't limited to any one language, the note will be linked too here.
+These are core concepts in coding that apply to all languages, i.e. Garbage Collection. Because these are fundamental topics and aren't limited to any one language, the note will be linked too here.
 
 - [Garbage collector](/core/garbageCollector.md)
